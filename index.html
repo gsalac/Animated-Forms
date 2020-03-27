@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f2fc93bdd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Animated Sign-in page</title>
+  </head>
+  <body>
+    <div class="welcome">
+      <p class="status-msg">Sign-In</p>
+      <div class="progress-bar">
+        <span class="circle c1"></span>
+        <span class="circle c2"></span>
+        <span class="circle c3"></span>
+      </div>
+    </div>
+    <form>
+      <div class="fieldName">
+        <i class="fas fa-user-circle"></i>
+        <input type="text" placeholder="Username" required />
+        <i class="fas fa-sign-in-alt"></i>
+      </div>
+      <div class="fieldEmail inactive">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Email" required />
+        <i class="fas fa-sign-in-alt"></i>
+      </div>
+      <div class="fieldPassword inactive">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Password" required />
+        <i class="fas fa-sign-in-alt"></i>
+      </div>
+      <div class="fieldComplete inactive">
+        <i class="far fa-smile-beam"></i>
+        <p>Welcome Back</p>
+        <i class="far fa-smile-beam"></i>
+      </div>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
